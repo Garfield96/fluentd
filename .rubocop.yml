@@ -1,0 +1,11 @@
+inherit_from: .rubocop_todo.yml
+
+require: rubocop-performance
+
+AllCops:
+  DisabledByDefault: true
+  TargetRubyVersion: 2.7
+  NewCops: disable
+
+Performance:
+  Enabled: true
